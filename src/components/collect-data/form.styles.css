@@ -1,0 +1,35 @@
+form {
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+}
+
+form input {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: rgb(242, 237, 237);
+}
+
+form .input-title {
+    display: block;
+    width: 192px;
+}
+
+form .input-num {
+    display: block;
+    width: 80px;
+}
+
+form button {
+    background-color: transparent;
+    color: #FFD700;
+    font-weight: 600;
+    border: 2px solid #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+}
